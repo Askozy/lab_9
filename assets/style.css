@@ -1,0 +1,279 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+/* Убираем внутренние отступы */
+ul[class],
+ol[class] {
+  padding: 0;
+}
+
+/* Убираем внешние отступы */
+body,
+h1,
+h2,
+h3,
+h4,
+p,
+ul[class],
+ol[class],
+li,
+figure,
+figcaption,
+blockquote,
+dl,
+dd {
+  margin: 0;
+}
+@font-face {
+    font-family: 'Palatino';
+    src: url('../fonts/Palatino-BoldItalic.eot');
+    src: local('../fonts/Palatino Bold Italic'), local('Palatino-BoldItalic'),
+        url('../fonts/Palatino-BoldItalic.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Palatino-BoldItalic.woff2') format('woff2'),
+        url('../fonts/Palatino-BoldItalic.woff') format('woff'),
+        url('../fonts/Palatino-BoldItalic.ttf') format('truetype');
+    font-weight: bold;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Palatino';
+    src: url('../fonts/Palatino-Bold.eot');
+    src: local('../fonts/Palatino Bold'), local('Palatino-Bold'),
+        url('../fonts/Palatino-Bold.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Palatino-Bold.woff2') format('woff2'),
+        url('../fonts/Palatino-Bold.woff') format('woff'),
+        url('../fonts/Palatino-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+/* Выставляем основные настройки по-умолчанию для body */
+body {
+  min-height: 100vh;
+  scroll-behavior: smooth;
+  text-rendering: optimizeSpeed;
+  line-height: 1.5;
+  background-color: #161616;
+  color: #fff;
+  font-family: 'Palatino';
+}
+.header {
+    width: 100%;
+    
+}
+.container {
+    width: 90%;
+    margin: 0 auto;
+    max-width: 1600px;
+    
+}
+.big_a {
+font-size: 58px;
+font-family: 'Stalinist One', cursive;
+}
+.text1 {
+    font-size: 28px;
+    font-weight: 100;
+    text-align: left;
+   line-height: 30px;
+}
+/*синди большой*************/
+.shinji_cont {
+    width: 80%;
+    margin: 5% auto 0;
+    height: 900px;
+    justify-content: space-between;
+}
+.shinji {
+    height: 800px;
+    float: right;
+    display: block;    
+    opacity: 0.5;
+    transition: .3s linear;
+}
+.shinji:hover {
+    opacity: 1;
+}
+
+.sh1_txt {
+font-family: 'Stalinist One', cursive;  
+font-size: 40px;
+margin-top: 30%;
+display: inline-block;
+}
+/*маленький синди********/
+.lil_sh {
+    width: 500px;
+    height: 350px;
+    float: left;  
+    display: block; 
+    overflow: hidden;
+   opacity: 0.6;
+    transition: 1s;
+    
+}
+.pic_lil {
+    overflow: hidden;
+    height: 350px;
+}
+.lil_sh:hover {
+    transform: scale(1.2);
+    opacity: 1;
+}
+.lil_txt {
+    display: inline-block;
+    margin-top: 7%;
+    font-size: 28px;
+    
+}
+.shinji_cont2 {
+    width: 80%;
+    margin: 5% auto 0;
+   
+    display: flex;
+    justify-content: space-between;
+  
+}
+/*гендо*************/
+.gendo_cont {
+    margin: 5% auto 0;
+}
+.gendo_txt {
+    text-align: center;
+    font-size: 28px;
+    font-weight: 100;
+   
+   line-height: 30px;
+    
+}
+.gen_font {
+    font-family: 'Stalinist One', cursive;
+}
+.gendo_pic {
+    width: 900px;
+    margin: 5% auto;
+    display: block;
+    opacity: 0.4;
+    transition: 1s;
+}
+.gendo_pic:hover {
+    opacity: 1;
+}
+.misato {
+    height: 700px;
+    float: right;
+    display: block;    
+    opacity: 0.5;
+    transition: .3s linear;
+}
+.misato:hover {
+    opacity: 1;
+}
+
+/*table*/
+.girls {
+    text-align: center;
+    font-size: 50px;
+    margin-top: 30px;
+    color: #fff;
+}
+.enn {
+    opacity: 0.5;
+    transition: .2s linear, color .2s linear;
+    height: 500px;
+    padding-left: 5%;
+      
+}.enn:hover {
+        opacity: 1;
+      }
+.triss {
+    display: block;
+    opacity: 0.5;
+    transition: .2s linear, color .2s linear;
+    margin-right: 20%;
+    height: 500px;
+      
+}.triss:hover {
+        opacity: 1;
+      }
+
+
+.enn_text {
+    font-family: 'Stalinist One', cursive;
+    font-size: 24px;
+    padding-bottom: 5%;
+    width: 50%;
+    color: #fff;
+}
+.triss_text {
+    width: 50%;
+    font-size: 24px;
+    font-family: 'Stalinist One', cursive;
+    color: #fff;
+    padding-bottom: 5%;
+}
+.table1 {
+   width: 80%;
+   text-align: center;
+   margin: 5% auto 0;
+
+}
+.girls2 {
+   display: flex;
+   justify-content: space-between;
+width: 80%;
+margin: 0 auto 5%;
+}
+.angel_txt {
+    font-family: 'Stalinist One', cursive;
+}
+
+/*angels*********/
+.angels {
+    display: flex;
+   justify-content: space-between;
+width: 80%;
+margin: 0 auto 5%;
+}
+.ang1 {
+    height: 500px;
+   margin-top: 10%;
+}
+.ang2 {
+    height: 700px;
+    margin-top: 100%;
+    opacity: 0.6;
+    transition: .3s linear;
+}
+.ang2:hover {
+    opacity: 1;
+}
+.lil_txt2 {
+    margin-top: 100%;
+}
+.ang_txt {
+    margin-top: 100%;
+}
+.ang_one {
+    overflow: hidden;
+    height: 665px;
+    width: 400px;
+    margin-top: 10%;
+}
+.angone {
+    width: 500px;
+    height: 656px;
+    float: left;  
+    display: block; 
+    overflow: hidden;
+   opacity: 0.6;
+    transition: 1s;
+    
+}
+.angone:hover {
+    transform: scale(1.2);
+    opacity: 1;
+}
